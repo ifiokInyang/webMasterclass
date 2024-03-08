@@ -36,7 +36,21 @@
             <!--anchor tag is for link-->
             <a href="https://www.w3schools.com"> More resources</a>
             
+            <div>
+                <h1>About Us</h1>
+                <p>Our company delivers the best solution in digital marketing
+                    
+                    <span><a href="/example/about.html" style="text-decoration: none;">Read more...</a></span>
+                
+                </p>
+                
+            </div>
+            <a href=""></a>
             
+            <div style="width: 200px; background-color: aqua;">
+                <span style="background-color: blue;">This is a span</span>
+                <p style="background-color: chartreuse;">This is a paragraph</p>
+            </div>
             <!--This is a comment-->
 
             <!--This is my commented content-->
@@ -70,7 +84,77 @@
         <video></video>
         <audio></audio>
         <table></table>
-        <form></form>
+
+        <!--FORMS-->
+        <form action="" onsubmit="">
+            <label for="first_name">First Name</label>
+            <input type="text" name="fname" value="fname" placeholder="John"/>
+
+            <label for="last_name">Last Name</label>
+            <input type="text" value="Doe"/>
+
+            <label for="phone">Phone</label>
+            <input type="tel" />
+
+            <label for="phone">Phone Number</label>
+            <input type="number" placeholder="+234-123-456-7890"/>
+            <label for="password">Password</label>
+            <input type="password" />
+            <label for="submit">Submit Button</label>
+            <input type="submit" value="InputSubmit" name="submit"/>
+            <button type="submit" onsubmit="">ButtonSubmit</button>
+        </form>
+
+        <!--TABLES-->
+        <table style="border: 2px solid rgb(47, 66, 190); border-collapse: collapse;">
+            <tr style="border: 1px solid red;">
+                <th style="border: 2px solid black;">
+                    S/N
+                </th>
+                <th style="border: 2px solid red;">
+                    Item
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th>
+                    Price(NGN)
+                </th>
+            </tr>
+
+
+            <tr style="border: 2px solid blue;">
+                <td style="border: 2px solid blue;">
+                    1
+                </td>
+                <td>
+                    Rice
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    500
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Beans
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+        </table>
+
         </body>
 
     </html>
