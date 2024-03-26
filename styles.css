@@ -1,0 +1,136 @@
+
+
+/*This is a comment */
+
+/*SELECTORS AND SPECIFICITY */
+
+/*ID SELECTORS */
+
+#heading{
+    text-transform: uppercase;
+    color: brown;
+    /* font-size: 12px; */
+}
+
+#example_id{
+    background-color: green; 
+    width: 900px; 
+    height: 400px;
+    border: 8px solid red;
+}
+
+#paragraph_one{
+    font-size: 25px;
+    text-decoration: dotted;
+    color: aqua;
+}
+/*CLASS SELECTORS */
+.heading{
+    /* text-transform: capitalize; */
+    color: burlywood;
+    font-size: 155px;
+    text-decoration: dashed;
+}
+
+.heading-class{
+    font-size: 40px;
+}
+
+.p_one{
+    /* font-size: 300px !important; */
+}
+/*ELEMENT SELECTORS */
+
+h1{
+    /* font-size: 70px; */
+}
+
+span {
+       font-size: 100px;
+}
+
+/*UNIVERSAL SELECTOR */
+/*UNIVERSAL SELECTOR APPLIES STYLING TO ALL ELEMENTS IN THE HTML DOCUMENT */
+* {
+    /* font-size: 150px; */
+}
+
+
+/*CSS GROUPING SELECTOR */
+/*DESCENDANT SELECTORS */
+/*CHILD SELECTORS */
+
+/*SELECTORS ARE PLACEHOLDERS TO TARGET DIFFERENT ELEMENTS ON THE HTML DOCUMENT */
+
+/*SPECIFICITY IS THE ORDER OR PRIORITY IN WHICH STYLING RULES ARE APPLIED TO HTML DOCUMENT/FILES */
+
+
+[href="https://www.w3schools.com"]{
+    color: red;
+}
+
+
+
+/*PSEUDO-CLASS*/
+
+a:hover{
+    color: black;
+}
+
+a[href="https://www.w3schools.com"]:visited{
+    color: darkmagenta;
+}
+
+/*PSEUDO ELEMENTS*/
+a::after{
+    content: "This is an after text";
+    color: bisque;
+}
+
+p::before{
+    content: "This is a before text";
+    color: bisque;
+}
+
+
+/*BOX MODEL AND LAYOUT*/
+/*em, rem, px, %, vw, vh*/
+
+#box_model{
+    background-color: crimson;
+    /* padding: 100px; */
+    /* padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 400px;
+    padding-bottom: 200px; */
+    
+    /* padding: 200px 80px; */ /*Syntax for top&bottom / left&right */
+    padding: 10px 50px 100px 100px; /*Syntax for top, right, bottom, left*/
+    
+    /* margin: 100px; */
+    width: 500px;
+    height: 150px;
+    /* border: 20px dashed blue; */
+}
+
+/*PADDING IS INTERNAL OF THE ELEMENT*/
+/*MARGIN IS EXTERNAL OF THE ELEMENT*/
+/*BORDER IS THE DIVIDING LINE (GAP) BETWEEN THE MARGIN AND THE PADDING OF THE ELEMENT*/
+
+html{
+    /* font-size: 32px; */
+}
+
+body{
+    /* font-size: 50px; */
+}
+#h_two{
+    
+    /* font-size: 2rem; */ /*rem is relative to its root element - which is the html, but by default 1rem = 16px*/
+    /*font-size: 1em; */  /*em is relative to its parent element, 1em = 16px if not defined in parent element*/
+    /*font-size: 100%; */ /* % is relative to its parent element */
+}
+
+#box_model_two{
+    
+}

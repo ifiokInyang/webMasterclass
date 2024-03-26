@@ -1,6 +1,8 @@
 
 <!--DOCUMENT STRUCTURE-->
 
+<!--HTML - Hypertext Markup Language-->
+
 <!DOCTYPE html>
     <html lang="en">
 
@@ -9,24 +11,54 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width">
             <title>Beginner's class</title>
-        
+
+            <!--THIRD METHOD OF LINKING YOUR STYLES TO YOUR HTML DOCUMENT-->
+            <link rel="stylesheet" href="styles.css">
+
+            <!--USING STYLE TAG IN THE HEAD TAG-->
+            <!-- <style>
+
+                p{
+                    color:blueviolet;
+                }
+
+                h2{
+                    color: red;
+                }
+                
+                li{
+                    color: darkblue;
+                }
+                h2{
+                    color:darkgreen
+                }
+            </style> -->
             <!-- <link rel="stylesheet" href=""/> -->
         </head>
 
         <body>
-            <h1 class="" id="" style="" > This is a heading</h1>
 
-            <h2>
+            <!--Stick to one method of styling-->
+            <h1 class="p_one" id="heading" style="" > This is heading ONE</h1>
+
+            <h2 id="h_two">
                 
-                This is a heading
+                This is heading TWO
             
             </h2>
 
+            <div id="box_model">
+                <h1>Box model heading</h1>
+            </div>
+
+            <div id="box_model_two">
+                <h1>Box model 2</h1>
+            </div>
 
             <h3>This is a heading</h3>
             <h4>This is a heading</h4>
-            <p >This is a paragraph</p>
-            <span>This is a span</span>
+            <p id="paragraph_one" class="heading">This is a target paragraph</p>
+            <span class="heading-class" id="heading">This is a span</span>
             <!--INLINE VS BLOCK-LEVEL ELEMENT-->
             <!--inline: THE ELEMENT'S SIZE WRAPS AROUND ITSELF-->
             <!--BLOCK LEVEL ELEMENT TAKES THE ENTIRE WIDTH OF ITS PARENT CONTAINER-->
@@ -49,6 +81,9 @@
             </div>
             <a href=""></a>
             
+            <!--INLINE STYLING-->
+            <div id="example_id" style="background-color: pink; width: 700px; height: 400px"></div>
+
             <div style="width: 500px; background-color: aqua;">
                 <span style="background-color: blue;">This is a span</span>
                 <p style="background-color: chartreuse;">This is a paragraph</p>
@@ -177,7 +212,7 @@
             <li>maggi</li>
             <li>salt</li>
         </ul>
-</body>
+        </body>
 
     </html>
 
